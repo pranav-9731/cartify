@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { useI18n } from '../store/i18n';
 
-const rawBaseURL = import.meta.env.VITE_API_URL || 'http://localhost:4000';
+const rawBaseURL = import.meta.env.VITE_API_URL || '/api';
 const baseURL = rawBaseURL.endsWith('/api') ? rawBaseURL : `${rawBaseURL.replace(/\/$/, '')}/api`;
 
 const api = axios.create({
