@@ -44,7 +44,7 @@ export function Navbar() {
 
         {/* LEFT: LOGO */}
         <Link to="/" className="flex items-center text-xl font-semibold hover:opacity-90">
-          <img src="public/yeDekh.jpeg" alt="Cartify" className="h-8 w-8 mr-3" />
+          <img src="/yeDekh.jpeg" alt="Cartify" className="h-8 w-8 mr-3" />
           {t('appTitle')}
         </Link>
 
@@ -145,7 +145,7 @@ export function Navbar() {
       <div className="container mx-auto">
         <div className="flex-1">
           <Link to="/" className="flex items-center text-xl font-semibold hover:opacity-90">
-          <img src="public/yeDekh.jpeg" alt="Cartify" className="h-8 w-8 mr-3" />
+          <img src="/yeDekh.jpeg" alt="Cartify" className="h-8 w-8 mr-3" />
           {t('appTitle')}
         </Link>
       </div>
